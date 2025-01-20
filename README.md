@@ -9,7 +9,8 @@ npm start
 
 
 
-backend: pip install fastapi uvicorn socketio python-socketio flask-socketio requests
+backend: pip installpip install flask flask-cors scikit-learn pandas numpy joblib
+ socketio python-socketio flask-socketio requests
 
 Run the setup script: `node setup_backend.js`
 Create a `caw1.csv` file with your crime data in the same directory.
